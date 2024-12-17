@@ -9,7 +9,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY . /usr/share/nginx/html
 # Expose the custom port
-EXPOSE 8080
+EXPOSE 7777
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
